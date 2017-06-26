@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Memory</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- vendor -->
+    <link rel="stylesheet" href="vendor/mdl/material.min.css">
+
+    <!-- nexpaq libs -->
+    <script type="text/javascript" src="js/NexpaqHeader.js"></script>
+
+    <!-- partials -->
+
+    <!-- screens -->
+
+    <!-- tools-->
+
+    <!-- core -->
+    <script type="text/javascript" src="vendor/mdl/material.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  <body>
+    <div id="wrapper" class="wrapper">
+      
+      <div id="main-screen" class="main-screen mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <div class="svg-container">
+            <div id="svg-case-module" class="svg-case-module"></div>
+            <div id="svg-disconnected" class="svg-disconnected"></div>
+            <div id="svg-connected" class="svg-connected hidden"></div>
+          </div>
+          <div class="text" id="text">Connect to module and explore files with Android File Manager</div>
+          <button class="button-connect mdl-button--raised" id="button-connect">Connect</button>
+          <button class="button-connect mdl-button--raised hidden" id="button-disconnect">Disconnect</button>
+          <button class="button-file-manager mdl-button--raised hidden" id="button-file-manager">Open File Manager</button>
+       </div>
+
+    </div>
+  </body>
+</html>
